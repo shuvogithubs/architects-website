@@ -191,9 +191,9 @@ main {
 
 .features-img {
     /* width: 100%; */
-    width: 508px;
 height: 682px;
 padding-bottom: 100px;
+/* margin-left: 50px; */
 }
 
 .features-box {
@@ -231,14 +231,22 @@ font-weight: 150;
 line-height: 162.5%
 }
 .ten-years-badge{
+    text-align: center;
     border-radius: 8px;
 background: #FF900E;
 color: #FFF;
-width: 342px;
-padding: 40px;
+width: 200px;
+padding: 10px;
+position: relative;
+bottom: 170px;
+right: 80px;
 }
 .ten-years-badge h2{
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 0;
+}
+.ten-years-badge p{
+    font-size: 1.5rem;
 }
 
 
